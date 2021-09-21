@@ -1,0 +1,141 @@
+.main-head{
+    display: grid;
+    place-items:center;
+    background-color: #dadbd3;
+    height: 100vh;
+}
+
+.main-body{
+    margin-top: -50px;
+    background-color: #ededed;
+    height: 90vh;
+    width: 70vw;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
+}
+
+.up{
+    width: 100%;
+    margin-top: 5px;
+
+    display: flex;
+    justify-content: end;
+}
+
+.up>h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:#3d3f35;
+
+    margin-right: 50px;
+}
+
+
+.element{
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 200px;
+    width: 180px;
+    background-color: #c1c2bc5d;
+    margin:25px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.element>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    border-top:1px solid rgba(119, 109, 109, 0.37);
+}
+
+.buy{
+    width: 50vw;
+
+    border:none;
+    border-bottom-left-radius: 10px;
+
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+.buy>h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:#3d3f35;
+    text-align: center;
+}
+
+.place{
+    width: 50vw;
+    text-align: center;
+    border-left:1px solid rgba(119, 109, 109, 0.37);
+}
+
+.place>p{
+    color:#3d3f35;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    z-index: 5;
+}
+
+.center{
+    display: flex;
+    justify-content: space-between;
+}
+
+.elements{
+    margin: 15px;
+    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.table{
+    margin: 15px;
+}
+
+table {
+    font-family: 'Open Sans Condensed', sans-serif;
+    border-collapse: collapse;
+
+    width: 15vw;
+
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    background-color: #c1c2bc5d;
+}
+
+td, th {
+    text-align: center;
+    padding: 5px;
+
+    color:rgb(75, 70, 70);
+    font-size: 20px;
+}
+ 
+tr:last-child{
+    border:none;
+}
+
+tr{
+    border-bottom: 1px solid #918585b2;
+}
+
+.button-spieniez{
+    border-radius: 7px;
+    border:1px solid rgba(0, 0, 0, 0.267);;
+    height: 30px;
+    background-color: #ededed;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
